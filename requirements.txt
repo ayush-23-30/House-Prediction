@@ -1,8 +1,22 @@
-scikit-learn
-numpy
-pandas
-streamlit
-matplotlib
-seaborn
-pickle
-markdown
+# Core scientific computing libraries
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Machine learning & data processing
+scikit-learn>=1.2.0
+pickle-mixin  # If using pickle, this ensures compatibility
+
+# Data visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Web app framework
+streamlit>=1.20.0
+
+# Markdown processing
+markdown>=3.4.0
+
+# Optional dependencies
+jupyter>=1.0.0  # If using Jupyter notebooks
+statsmodels>=0.14.0  # Additional statistical analysis tools
+plotly>=5.15.0  # Interactive visualizations
