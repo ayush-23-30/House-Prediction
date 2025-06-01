@@ -16,7 +16,5 @@ streamlit>=1.20.0
 # Markdown processing
 markdown>=3.4.0
 
-# Optional dependencies
-jupyter>=1.0.0  # If using Jupyter notebooks
-statsmodels>=0.14.0  # Additional statistical analysis tools
-plotly>=5.15.0  # Interactive visualizations
+
+
